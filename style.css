@@ -9,7 +9,11 @@ body{
 	height: 100vh;
 }
 .navbar{
-	background-color: #35354d;
+	background-color: rgba(27, 21, 66,0.6);
+
+}
+.navbar .navbar-brand img{
+	height: 30px;
 }
 
 .carousel-item{
@@ -107,9 +111,12 @@ section#sale.sale-area.section-big{
 #sale .best-items{
 	margin: 25px auto;
 	background-color: #fff;
+	height: 91%;
+	width: 100%;
 }
+
 #sale .best-items:hover{
-	box-shadow: 2px 2px 5px 5px gray;
+	box-shadow: 8px 8px 8px gray;
 }
 
 #sale .best-items img{
@@ -149,7 +156,7 @@ section#sale.sale-area.section-big{
 	padding-bottom: 85px;
 }
 .best-items .short-2{
-/*	padding-top: 30px;*/
+	padding-top: 10px;
 	padding-bottom: 20px;
 }
 .best-items .short-3{
@@ -179,7 +186,7 @@ section#sale.sale-area.section-big{
 #sale .last-button .btn:hover{
 	background-color: green;
 	color: #fff;
-	border: none;
+	border: 1px solid green;
 	box-shadow: 5px 5px 5px gray;
 }
 
@@ -211,6 +218,8 @@ section#grocery.grocery-area.section-big{
 #grocery .best-items{
 	margin: 25px auto;
 	background-color: #fff;
+	height: 91%;
+	width: 100%;
 }
 #grocery .best-items:hover{
 	box-shadow: 2px 2px 5px 5px gray;
@@ -286,7 +295,7 @@ section#grocery.grocery-area.section-big{
 #grocery .last-button .btn:hover{
 	background-color: green;
 	color: #fff;
-	border: none;
+	border: 1px solid green;
 	box-shadow: 5px 5px 5px gray;
 }
 
@@ -324,6 +333,8 @@ section#fashion.fashion-area.section-big{
 #fashion .best-items{
 	margin: 25px auto;
 	background-color: #fff;
+	height: 91%;
+	width: 100%;
 }
 #fashion .best-items:hover{
 	box-shadow: 2px 2px 5px 5px gray;
@@ -358,7 +369,7 @@ section#fashion.fashion-area.section-big{
 	transition: 0.5s;
 }
 .best-items .fashion-1{
-	padding-top: 0px;
+	padding-top: 5px;
 	padding-bottom: 15px;
 }
 .best-items .fa{
@@ -380,6 +391,7 @@ section#fashion.fashion-area.section-big{
 }
 .best-items .fashion-3{
 	width: 95%;
+	padding-top: 5px;
 	padding-bottom: 25px;
 }
 .best-items .short-3{
@@ -399,7 +411,7 @@ section#fashion.fashion-area.section-big{
 #fashion .last-button .btn:hover{
 	background-color: green;
 	color: #fff;
-	border: none;
+	border: 1px solid green;
 	box-shadow: 5px 5px 5px gray;
 }
 
@@ -439,6 +451,8 @@ section#electronics.electronics-area.section-big{
 #electronics .best-items{
 	margin: 25px auto;
 	background-color: #fff;
+	height: 91%;
+	width: 100%;
 }
 #electronics .best-items:hover{
 	box-shadow: 2px 2px 5px 5px gray;
@@ -505,7 +519,7 @@ section#electronics.electronics-area.section-big{
 #electronics .last-button .btn:hover{
 	background-color: green;
 	color: #fff;
-	border: none;
+	border: 1px solid green;
 	box-shadow: 5px 5px 5px gray;
 }
 
@@ -520,34 +534,35 @@ section#electronics.electronics-area.section-big{
 
 section#register.register-area.section-big{
 	margin-top: 20px;
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 }
 #register .container{
+	max-width: 1350px;
 	width: 100%;
 	height: 100%;
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: 0;
-	margin-right: 0;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.4);
 	background-size: cover;
 }
 #register .container .form-container{
 
-	background-color: rgba(44, 34, 69,0.6);
+	background-color: rgba(12, 48, 27,0.5);
 	overflow: hidden;
 	width: 300px;
-	height: 350px;
-	top: 20%;
-	position: relative;
-	padding: 20px 0;
-	margin: auto;
+	height: 310px;
+	/*top: 20%;*/
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 20%);
+
+	position: absolute;
+	padding: 10px 0;
+	/*margin: auto;*/
 	box-shadow: 0 0 20px 0px rgba(0,0,0,0.3);
 }
 #register .container .form-container:hover{
 	box-shadow: 0 5px 5px 5px rgba(0,0,0,0.5);
-	top: 19%;
+	/*top: 19%;*/
 }
 .form-container span{
 	font-weight: bold;
