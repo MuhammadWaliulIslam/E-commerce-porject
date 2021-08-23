@@ -25,18 +25,8 @@ body{
 }
 .carousel-item img{
 	height: 100%;
-	width: 80%;
-	background: cover;
 }
-/*.carousel-item .carousel-caption{
-	background-color: #3b475c;
-	height: 100%;
-	width: 100%;
-	padding-left: 150px;
-	padding-bottom: 80px;
-	opacity: 0.7;
 
-}*/
 .carousel-item:before{
 	content: '';
 	position: absolute;
@@ -47,13 +37,16 @@ body{
 	background-color: #000;
 	opacity: 0.4;
 }
+.carousel-caption{
+	top: 35%;
+}
 .carousel-caption .container{
 	max-width: 500px;
-	margin-bottom: 90px;
 	position: relative;
 }
 .container .dalivery h2{
-	font-size: 50px;
+	font-size: 60px;
+	letter-spacing: 2;
 	font-weight: 600;
 	color: #fff;
 }
@@ -82,6 +75,9 @@ body{
 	font-size: 30px;
 	color: #fff;
 	letter-spacing: 0.5;
+}
+#carouselExampleIndicators a .fa{
+	font-size: 50px;
 }
 
 		/*sale area starts here*/
@@ -534,7 +530,7 @@ section#electronics.electronics-area.section-big{
 
 section#register.register-area.section-big{
 	margin-top: 20px;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 }
 #register .container{
@@ -579,17 +575,20 @@ section#register.register-area.section-big{
 }
 .form-container form{
 	max-width: 300px;
-	padding: 0 20px;
+	padding: 0 10px;
 	position: absolute;
 	top: 80px;
 	transition: transform 1s;
 }
 form input{
 	width: 100%;
+	background-color: transparent;
+	color: rgba(255,255,255,0.8);
 	height: 30px; 
 	margin: 10px 0;
 	padding: 0 10px;
-	border: 1px solid #ccc;
+	border: none;
+	border-bottom: 1px solid #ccc;
 }
 form input:focus{
 	outline: none;
@@ -614,6 +613,7 @@ form a:hover{
 #LogForm{
 	left: -300px;
 }
+
 #RegForm{
 	left: 0;
 }
@@ -637,6 +637,9 @@ footer#contact.contact-area{
 
 #contact .container{
 	padding-top: 35px;
+}
+#contact .container .column-1{
+	padding-right: 0px;
 }
 
 #contact .container .container-1 h4{
@@ -717,3 +720,81 @@ footer#contact.contact-area{
 	background-color: #c20e23;
 	color: #fff;
 }
+
+@media only screen and (max-width: 1050px){
+	section#register.register-area.section-big{
+		height: 55vh;
+	}
+	#register .container .form-container{
+	width: 300px;
+	height: 250px;
+	position: absolute;
+	padding: 0;
+	transform: translate(-50%, 10%);
+	}
+	.form-container form{
+		position: absolute;
+		top: 38px;
+	}
+	#LogForm button{
+	margin-top: 25px;
+	margin-bottom: 10px;
+	}
+	#RegForm button{
+	margin-top: 10px;
+	margin-bottom: 8px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.carousel-caption .container .dalivery h2{
+		font-size: 30px;
+	}
+	.container .dalivery p{
+		font-size: 20px;
+	}
+	.container .dalivery .btn{
+		padding: 3px 10px;
+	}
+
+
+	.carousel-caption .container .sale h2{
+		font-size: 30px;
+	}
+	.container .sale p{
+		font-size: 20px;
+	}
+	.container .sale .btn{
+		padding: 3px 10px;
+	}
+
+
+	.carousel-caption .container .deal h2{
+		font-size: 30px;
+	}
+	.container .deal p{
+		font-size: 20px;
+	}
+	.container .deal .btn{
+		padding: 3px 10px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+
+	section#register.register-area.section-big{
+		height: 55vh;
+	}
+	#contact .container .column-1{
+		padding-right: 0px;
+	}
+	#contact .container .column-2{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.container-2 .social-icon li{
+	margin-right: 5px;
+	}
+}
+
+
+
