@@ -631,7 +631,7 @@ form a:hover{
 
 footer#contact.contact-area{
 	margin-top: 20px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 	background-color: #2d2652;
 }
 
@@ -644,6 +644,7 @@ footer#contact.contact-area{
 }
 .container-1 li{
 	list-style: none;
+	padding-bottom: 5px;
 }
 .container-1 a{
 	color: gray;
@@ -651,6 +652,7 @@ footer#contact.contact-area{
 
 .container-1 a:hover{
 	text-decoration: none;
+	color: rgba(255,255,255,0.6);
 }
 .container .container-2 h4{
 	color: gray;
@@ -672,14 +674,14 @@ footer#contact.contact-area{
 	font-weight: 500;
 }
 .container-2 .social-icon{
-	padding-top: 10px;
+	padding-top: 7px;
 }
 .container-2 .social-icon li{
-	margin-left: 10px;
+	margin-right: 10px;
 	cursor: pointer;
 }
 .container-2 .social-icon li .fa-facebook{
-	font-size: 25px;
+	font-size: 18px;
 	padding: 7px 13px;
 	border-radius: 5px;
 }
@@ -688,7 +690,7 @@ footer#contact.contact-area{
 	color: #fff;
 }
 .container-2 .social-icon li .fa-google{
-	font-size: 25px;
+	font-size: 18px;
 	padding: 7px 9px;
 	border-radius: 5px;
 }
@@ -697,7 +699,7 @@ footer#contact.contact-area{
 	color: #000;
 }
 .container-2 .social-icon li .fa-instagram{
-	font-size: 25px;
+	font-size: 18px;
 	padding: 7px 9px;
 	border-radius: 5px;
 }
@@ -706,7 +708,7 @@ footer#contact.contact-area{
 	color: #fff;
 }
 .container-2 .social-icon li .fa-youtube-play{
-	font-size: 25px;
+	font-size: 18px;
 	padding: 7px 9px;
 	border-radius: 5px;
 	
